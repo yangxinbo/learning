@@ -4,9 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.lodumani</groupId>
-	<artifactId>lodumani</artifactId>
+	<artifactId>learning</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>spring-boot</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>lodumani</name>
 	<description>lodumani project for Spring Boot</description>
