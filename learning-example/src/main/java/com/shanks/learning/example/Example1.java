@@ -58,7 +58,7 @@ public class Example1 {
         Integer value = null;
         for (int i = 0; i < arr.length; i++) {
             key = String.valueOf(arr[i]);
-            value = countMap.containsKey(key) ? countMap.get(key) : 0;
+            value = countMap.getOrDefault(key, 0);
             countMap.put(key, ++value);
         }
         int count = countMap.getOrDefault(String.valueOf(input), 0);
