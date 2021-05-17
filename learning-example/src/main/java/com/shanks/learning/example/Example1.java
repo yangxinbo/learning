@@ -7,11 +7,9 @@ import java.util.Map;
  * FileName    : com.shanks.learning.example
  * Description :
  *
- * @author : Venom
+ * @author : Shanks
  * @version : 1.0
  * Create Date : 2021/5/15 14:15
- * @Copyright : WithUFuture Software Co.,Ltd.Rights Reserved
- * @Company : 深圳幻影未来信息科技有限公司
  **/
 public class Example1 {
 
